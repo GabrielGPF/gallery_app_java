@@ -30,7 +30,6 @@
         app:layout_constraintGuide_percent="0.06"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--Content-->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/horizontalGuideline1"
         android:layout_width="wrap_content"
@@ -39,6 +38,7 @@
         app:layout_constraintGuide_percent="0.94"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--Content-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -83,6 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/log_in"
+        android:onClick="login"
         app:layout_constraintEnd_toStartOf="@+id/verticalGuideline1"
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline0"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
@@ -93,6 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/sign_in"
+        android:onClick="signIn"
         app:layout_constraintEnd_toStartOf="@+id/verticalGuideline1"
         app:layout_constraintStart_toStartOf="@+id/verticalGuideline0"
         app:layout_constraintTop_toBottomOf="@+id/loginButton" />

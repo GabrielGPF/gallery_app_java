@@ -1,4 +1,5 @@
 <resources>
+    <!--Main-->
     <string name="app_name">Gallery App Java</string>
     <string name="login">Login</string>
     <string name="name">Name</string>
@@ -6,4 +7,11 @@
     <string name="password">Password</string>
     <string name="log_in">LOG IN</string>
     <string name="sign_in">SIGN IN</string>
+    <!--Gallery-->
+    <string name="left_button">\u003c</string>
+    <string name="right_button">\u003e</string>
+    <string name="spongebob">Spongebob</string>
+    <string name="patrick">Patrick</string>
+    <string name="sandy">Sandy</string>
+    <string name="mr_krabs">Mr. Krabs</string>
 </resources>
